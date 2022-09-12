@@ -1,0 +1,18 @@
+{
+    "name": "com.dimati.vr.interactions.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3d8daded8d5b34348ae2af78827b1a15",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:549dcdd227d784d4bb2eb0cd9edc431d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

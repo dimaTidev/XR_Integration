@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3545051483647436990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6263020837678855695, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_Name
+      value: Physics_hand_WebXR
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.541
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263020837678855696, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+--- !u!1 &7482789941432377009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6263020837678855695, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6252379686064400453 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7491289070517764347, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482789941432377009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c60b26648395c43a082dbad78f2f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &347987520271628236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3884004230436609906, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5409504741777992875 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8800287024909190165, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347987520271628236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95157a6a3e7ab744d850a9e2c365ce70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7487001485277292146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6257084984717250252, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347987520271628236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a1938d3eba90f49a7a19008b816b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3545051483317340702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 484237984, guid: 4749157989dee444381c68d2d7613ae2, type: 3}
+  m_PrefabInstance: {fileID: 3545051483647436990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddec9c69ccf728b40affb9d23c4bfce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4164503766089313816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482789941432377009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc071122ec4b1a14498476b110742095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 8301180213163723062}
+  onControllerVisible:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onHandsActive:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: AInteractor, com.dimati.vr.interactions.Runtime
+        m_MethodName: Pickup_byTrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: AInteractor, com.dimati.vr.interactions.Runtime
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onGripDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: AInteractor, com.dimati.vr.interactions.Runtime
+        m_MethodName: Pickup_byGrip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onGripUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6252379686064400453}
+        m_TargetAssemblyTypeName: AInteractor, com.dimati.vr.interactions.Runtime
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onGripValue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3545051483317340702}
+        m_TargetAssemblyTypeName: Controller_Animation, com.dimati.vr.interactions.Runtime
+        m_MethodName: Set_Grip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerValue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3545051483317340702}
+        m_TargetAssemblyTypeName: Controller_Animation, com.dimati.vr.interactions.Runtime
+        m_MethodName: Set_Trigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStickMove:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8301180213163723062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482789941432377009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bfe9c8d313cf9458117129f19cd7af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 1
+  alwaysUseGrip: 0
+--- !u!114 &3185735599362960542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347987520271628236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc071122ec4b1a14498476b110742095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 8301180213163723062}
+  onControllerVisible:
+    m_PersistentCalls:
+      m_Calls: []
+  onHandsActive:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5409504741777992875}
+        m_TargetAssemblyTypeName: AInteractor, com.dimati.vr.interactions.Runtime
+        m_MethodName: Pickup_byTrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7487001485277292146}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5409504741777992875}
+        m_TargetAssemblyTypeName: Interactor_Ray, com.dimati.vr.interactions.Runtime
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7487001485277292146}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onGripDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onGripUp:
+    m_PersistentCalls:
+      m_Calls: []
+  onGripValue:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerValue:
+    m_PersistentCalls:
+      m_Calls: []
+  onStickMove:
+    m_PersistentCalls:
+      m_Calls: []

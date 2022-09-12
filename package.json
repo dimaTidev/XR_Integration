@@ -1,0 +1,37 @@
+{
+    "name": "com.dimati.vr.interactions",
+    "displayName": "VR Interactions",
+    "version": "0.0.1",
+    "unity": "2020.3",
+    "unityRelease": "",
+    "description": "- Interactor and interactions\n- Physics Tracker and Jointer\n- Hand poser",
+    "author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+    "keywords": [],
+    "category": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dimaTidev/Tool_packageCreator.git"
+    },
+    "samples": [
+        {
+            "displayName": "Hands Model",
+            "description": "Contains hands 3d model with shader and material",
+            "path": "Samples~/HandsModel"
+        },
+        {
+            "displayName": "Hand Prefab",
+            "description": "Contains setuped hand prefab. DEPENDS on HandsModel",
+            "path": "Samples~/HandPrefab"
+        },
+        {
+            "displayName": "WebXR integration",
+            "description": "Contains webXR scripts and webXR prefabs. DEPENDS on HandPrefab and HandsModel",
+            "path": "Samples~/WebXR_integration"
+        },
+        {
+            "displayName": "PC Mouse Interactor",
+            "description": "Contains mouse interactor script with prefab",
+            "path": "Samples~/PC_MouseInteractor"
+        }
+    ]
+}
